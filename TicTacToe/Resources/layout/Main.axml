@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW GAME" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView1"
+        android:fillViewport="true">
+        <HorizontalScrollView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/horizontalScrollView1"
+            android:fillViewport="true">
+            <TableLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tableLayout1">
+                <TableRow
+                    android:id="@+id/tableRow4">
+                    <TextView
+                        android:textColor="#00CCCC"
+                        android:text="A"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_column="1"
+                        android:id="@+id/textView11" />
+                    <TextView
+                        android:textColor="#00CCCC"
+                        android:text="B"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_column="2"
+                        android:id="@+id/textView12" />
+                    <TextView
+                        android:textColor="#00CCCC"
+                        android:text="C"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_column="3"
+                        android:id="@+id/textView13" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:textColor="#00CCCC"
+                        android:text="1"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:gravity="center"
+                        android:layout_column="0"
+                        android:id="@+id/textView8"
+                        android:layout_width="35.5dp" />
+                    <Button
+                        android:textColor="#FFFFFF"
+                        android:textSize="24dp"
+                        android:id="@+id/button1"
+                        android:layout_height="80.0dp"
+                        android:layout_column="1"
+                        android:tag="1"
+                        android:layout_width="91.0dp"
+                        android:layout_marginRight="0.0dp" />
+                    <Button
+                        android:textColor="#FFFFFF"
+                        android:textSize="24dp"
+                        android:id="@+id/button2"
+                        android:layout_height="80.0dp"
+                        android:tag="2"
+                        android:layout_width="91.5dp"
+                        android:layout_marginLeft="0.0dp" />
+                    <Button
+                        android:textColor="#FFFFFF"
+                        android:textSize="24dp"
+                        android:id="@+id/button3"
+                        android:layout_height="80.0dp"
+                        android:tag="3"
+                        android:layout_width="91.5dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow2">
+                    <TextView
+                        android:textColor="#00CCCC"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_column="0"
+                        android:id="@+id/textView9"
+                        android:layout_width="30.0dp" />
+                    <Button
+                        android:textColor="#FFFFFF"
+                        android:textSize="24dp"
+                        android:layout_height="80.0dp"
+                        android:id="@+id/button4"
+                        android:layout_column="1"
+                        android:tag="4" />
+                    <Button
+                        android:textColor="#FFFFFF"
+                        android:textSize="24dp"
+                        android:layout_height="80.0dp"
+                        android:id="@+id/button5"
+                        android:tag="5" />
+                    <Button
+                        android:textColor="#FFFFFF"
+                        android:textSize="24dp"
+                        android:layout_height="80.0dp"
+                        android:id="@+id/button6"
+                        android:tag="6" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow3">
+                    <TextView
+                        android:textColor="#00CCCC"
+                        android:text="3"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_column="0"
+                        android:id="@+id/textView10"
+                        android:layout_width="36.5dp" />
+                    <Button
+                        android:textColor="#FFFFFF"
+                        android:textSize="24dp"
+                        android:layout_height="80.0dp"
+                        android:id="@+id/button7"
+                        android:layout_column="1"
+                        android:tag="7" />
+                    <Button
+                        android:textColor="#FFFFFF"
+                        android:textSize="24dp"
+                        android:layout_height="80.0dp"
+                        android:id="@+id/button8"
+                        android:tag="8" />
+                    <Button
+                        android:textColor="#FFFFFF"
+                        android:textSize="24dp"
+                        android:layout_height="80.0dp"
+                        android:id="@+id/button9"
+                        android:tag="9" />
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
